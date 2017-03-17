@@ -1,0 +1,102 @@
+.navbar-default{
+	background-color:#26c7b5;
+	border-color:#26c7b5;
+}
+.navbar-default .navbar-nav>li>a{
+	color:#FFF;
+}
+.navbar-default:hover .navbar-nav>li>a:hover{
+	color:#FFF;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+	color:#FFF;
+	background-color:#00aa96;
+}
+
+@media screen and (min-width:768px) {
+	.nav>li>a{
+		padding:15px 18px;
+		font-weight:bold;
+	}
+}
+@media screen and (min-width:1000px) {
+	.nav>li>a{
+		padding:15px 35px;
+		font-weight:bold;
+	}
+}
+@media screen and (min-width:1200px) {
+	.nav>li>a{
+		padding:15px 45px;
+		font-weight:bold;
+	}
+}
+.nav>li{
+	font-size:16px;
+}
+.nav>li:hover{
+	background-color:#00aa96;
+}
+.navbar-default .navbar-brand{
+	color:#FFF;
+}
+.navbar-default:hover .navbar-brand:hover{
+	color:#FFF;
+}
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#FFF;
+}
+.navbar-default .navbar-toggle{
+	border:#FFF solid 1px;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+	background-color:#26c7b5;
+}
+.logo{
+	padding:25px 0;
+	font-size:50px;
+	color:#26c7b5;
+	text-shadow:2px 2px 5px #00aa96,3px 3px 5px #26c7f6;
+	letter-spacing:5px;
+	font-family:'微软雅黑';
+}
+
+.footer_box{
+	background-color:#00aa96;
+	margin-top:55px;
+	padding:50px;
+	color:#FFF;
+}
+.footer_box>div>div{
+	margin-top:15px;
+	padding-top:15px;
+	border-top:#ccc solid 1px; 
+}
+.footer_box .blogroll>span{
+	padding:10px 25px 0 0;
+	display:inline-block;
+}
+.footer_box .blogroll>span a{
+	color:#FFF;
+}
+.footer_box .contact>span{
+	display:inline-block;
+	width:35px;
+	height:35px;
+	margin-top:10px;
+	border-radius:100%;
+	line-height:35px;
+	text-align:center;
+	margin-right:25px;
+	border:#26C7b5 solid 1px;
+}
+.footer_box .contact>span:hover{
+	background-color:#26c7b5;
+}
+
+.footer_box .copyright>span{
+	display:inline-block;
+	margin-top:10px;
+	margin-right:25px;
+	
+}
